@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="E_Blood.View.SignUpPage"
+             xmlns:vm="clr-namespace:E_Blood.ViewModel;assembly=E_Blood">
+
+
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Padding="40">
+                <Frame CornerRadius="100" 
+           HeightRequest="150"
+           WidthRequest="150"
+           HorizontalOptions="Center"
+           Padding="0"
+           IsClippedToBounds="True">
+                </Frame>
+            </StackLayout>
+            
+         
+            <Entry x:Name = "Email" Placeholder = "Email" HeightRequest = "40" Text="{Binding Email}" 
+                   Keyboard = "Email" />
+            <Entry x:Name = "Password" Placeholder = "Password" HeightRequest = "40" Text="{Binding Password}"
+                   IsPassword = "True"/>
+            <Entry x:Name = "ConfirmPassword" Placeholder = "Confirm Password" HeightRequest = "40" Text="{Binding ConfirmPassword}"
+                   IsPassword = "True"/>
+            <Button x:Name= "signUpbtn" Text = "Register" 
+                    FontAttributes = "Bold" FontSize = "Large" HorizontalOptions = "FillAndExpand" Command="{Binding RegisterCommand}"
+                    BackgroundColor = "# 088da5" />
+            <Label HorizontalOptions="Center"
+       TextColor="Black"
+       FontSize="12"
+       Margin="0, 120, 0, 0"
+       Text="SignUp Here">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding ForgotPasswordCommand}" />
+                </Label.GestureRecognizers>
+
+            </Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
+
+

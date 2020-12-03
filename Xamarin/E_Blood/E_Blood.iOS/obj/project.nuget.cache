@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "TvGDNqzI+fZIEOt9nZAWdA7NVAhXQ2GK5zhVQdpUisFbfT/oA33oRLgV/TCe0BJEcT2ir4k7cUo2baV0QJIxiQ==",
+  "success": true,
+  "projectFilePath": "F:\\education\\projetXamarin\\Xamarin\\E_Blood\\E_Blood.iOS\\E_Blood.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lahmar's PC\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Lahmar's PC\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Lahmar's PC\\.nuget\\packages\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Users\\Lahmar's PC\\.nuget\\packages\\xamarin.forms\\4.3.0.908675\\xamarin.forms.4.3.0.908675.nupkg.sha512"
+  ],
+  "logs": []
+}
